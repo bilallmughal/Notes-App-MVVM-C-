@@ -34,20 +34,3 @@ The app follows the MVVM-C (Model-View-ViewModel-Coordinator) architecture:
 
 ### Services
 - `NotesStorage`: Handles data persistence using UserDefaults
-
-## Project Structure
-
-Notes MVVM-C/
-├── Coordinators/
-│ └── MainCoordinator.swift
-├── Models/
-│ └── Note.swift
-├── Views/
-│ ├── NotesListView.swift
-│ └── NoteDetailView.swift
-├── ViewModels/
-│ ├── NotesListViewModel.swift
-│ └── NoteDetailViewModel.swift
-├── Services/
-│ └── NotesStorage.swift
-└── Notes_MVVM_CApp.swift
